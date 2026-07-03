@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.785aec1d.css",
+    "main.js": "/static/js/main.6aedc06c.js",
+    "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/airflow-platform.png": "/static/media/airflow-platform.cc9d8288917ee6971e84.png",
+    "static/media/grafana-monitoring.png": "/static/media/grafana-monitoring.6478a63026ffbfe48a90.png",
+    "static/media/hadoop-applications.png": "/static/media/hadoop-applications.0123ab278240c0c0f765.png",
+    "static/media/zabbix-dashboard.png": "/static/media/zabbix-dashboard.99e66a44837ca80c0e88.png",
+    "static/media/gitlab-pipeline.png": "/static/media/gitlab-pipeline.825cabe0c747d11a7f98.png",
+    "static/media/redis-sentinel.png": "/static/media/redis-sentinel.46e95baffecf956cb170.png",
+    "static/media/prometheus-alerts.png": "/static/media/prometheus-alerts.431559f5b499964e02cd.png",
+    "static/media/hadoop-datanodes.png": "/static/media/hadoop-datanodes.6f5c088f2822c7793700.png",
+    "static/media/postgresql-ha.png": "/static/media/postgresql-ha.7cbf9c19b87d3acf7087.png",
+    "static/media/profile.jpg": "/static/media/profile.a902064224bde8ad3817.jpg",
+    "index.html": "/index.html",
+    "main.785aec1d.css.map": "/static/css/main.785aec1d.css.map",
+    "main.6aedc06c.js.map": "/static/js/main.6aedc06c.js.map",
+    "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.785aec1d.css",
+    "static/js/main.6aedc06c.js"
+  ]
+}
