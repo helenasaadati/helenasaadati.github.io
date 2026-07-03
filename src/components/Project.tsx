@@ -1,73 +1,228 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
-import '../assets/styles/Project.scss';
+
+import grafanaMonitoring from "../assets/images/grafana-monitoring.png";
+import airflowPlatform from "../assets/images/airflow-platform.png";
+import gitlabPipeline from "../assets/images/gitlab-pipeline.png";
+import hadoopApplications from "../assets/images/hadoop-applications.png";
+import hadoopDatanodes from "../assets/images/hadoop-datanodes.png";
+import prometheusAlerts from "../assets/images/prometheus-alerts.png";
+import zabbixDashboard from "../assets/images/zabbix-dashboard.png";
+
+// Add these images later
+import postgresqlHA from "../assets/images/postgresql-ha.png";
+import redisSentinel from "../assets/images/redis-sentinel.png";
+import dockerPlatform from "../assets/images/docker-platform.png";
+
+import "../assets/styles/Project.scss";
 
 function Project() {
-    return(
-    <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
-        <div className="projects-grid">
-            <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+    return (
+        <div className="projects-container" id="projects">
+
+            <h1>Projects I've Contributed To</h1>
+
+            <p className="projects-intro">
+                A selection of production infrastructure, observability,
+                automation, and data platform projects I contributed to
+                as part of DevOps and Platform Engineering teams.
+            </p>
+
+            <div className="projects-grid">
+
+                {/* Project 1 */}
+
+                <div className="project">
+                    <img
+                        src={grafanaMonitoring}
+                        className="zoom"
+                        alt="Enterprise Monitoring Platform"
+                        width="100%"
+                    />
+
+                    <h2>Enterprise Monitoring Platform</h2>
+
+                    <p>
+                        Contributed to the development and day-to-day operation of a
+                        centralized monitoring platform for production infrastructure,
+                        building and maintaining dashboards and operational visibility
+                        using Grafana, Prometheus, and Zabbix.
+                    </p>
+                </div>
+
+                {/* Project 2 */}
+
+                <div className="project">
+                    <img
+                        src={airflowPlatform}
+                        className="zoom"
+                        alt="Data Platform Operations"
+                        width="100%"
+                    />
+
+                    <h2>Data Platform Operations</h2>
+
+                    <p>
+                        Contributed to the operation and monitoring of production data
+                        platforms, supporting Apache Airflow workflows, Hadoop
+                        services, and distributed data processing environments.
+                    </p>
+                </div>
+
+                {/* Project 3 */}
+
+                <div className="project">
+                    <img
+                        src={gitlabPipeline}
+                        className="zoom"
+                        alt="CI/CD Automation"
+                        width="100%"
+                    />
+
+                    <h2>CI/CD Automation</h2>
+
+                    <p>
+                        Contributed to implementing and maintaining CI/CD pipelines
+                        for infrastructure and application deployments using GitLab CI,
+                        Docker, and automated deployment workflows.
+                    </p>
+                </div>
+
+                {/* Project 4 */}
+
+                <div className="project">
+                    <img
+                        src={hadoopApplications}
+                        className="zoom"
+                        alt="Big Data Platform"
+                        width="100%"
+                    />
+
+                    <h2>Big Data Platform Operations</h2>
+
+                    <p>
+                        Supported the operation of Hadoop clusters, monitoring
+                        distributed applications, resource utilization, and platform
+                        health to ensure reliable data processing services.
+                    </p>
+                </div>
+
+                {/* Project 5 */}
+
+                <div className="project">
+                    <img
+                        src={hadoopDatanodes}
+                        className="zoom"
+                        alt="Storage Infrastructure"
+                        width="100%"
+                    />
+
+                    <h2>Distributed Storage Infrastructure</h2>
+
+                    <p>
+                        Participated in monitoring HDFS DataNodes, storage capacity,
+                        replication status, and cluster health to improve reliability
+                        and operational visibility.
+                    </p>
+                </div>
+
+                {/* Project 6 */}
+
+                <div className="project">
+                    <img
+                        src={prometheusAlerts}
+                        className="zoom"
+                        alt="Alerting Platform"
+                        width="100%"
+                    />
+
+                    <h2>Infrastructure Alerting</h2>
+
+                    <p>
+                        Contributed to alert design and monitoring using Prometheus,
+                        helping detect infrastructure issues and reduce response time
+                        for production incidents.
+                    </p>
+                </div>
+
+                {/* Project 7 */}
+
+                <div className="project">
+                    <img
+                        src={zabbixDashboard}
+                        className="zoom"
+                        alt="Infrastructure Monitoring"
+                        width="100%"
+                    />
+
+                    <h2>Infrastructure Monitoring Dashboards</h2>
+
+                    <p>
+                        Built and maintained operational dashboards in Zabbix for
+                        Linux servers, services, storage, and network infrastructure
+                        used by production environments.
+                    </p>
+                </div>
+
+                {/* Project 8 */}
+
+                <div className="project">
+                    <img
+                        src={postgresqlHA}
+                        className="zoom"
+                        alt="PostgreSQL High Availability"
+                        width="100%"
+                    />
+
+                    <h2>PostgreSQL High Availability</h2>
+
+                    <p>
+                        Contributed to deploying and maintaining highly available
+                        PostgreSQL clusters, supporting replication, failover, backup,
+                        and operational monitoring.
+                    </p>
+                </div>
+
+                {/* Project 9 */}
+
+                <div className="project">
+                    <img
+                        src={redisSentinel}
+                        className="zoom"
+                        alt="Redis Sentinel"
+                        width="100%"
+                    />
+
+                    <h2>Redis High Availability</h2>
+
+                    <p>
+                        Assisted in deploying and operating Redis Sentinel to provide
+                        automatic failover, high availability, and continuous service
+                        monitoring.
+                    </p>
+                </div>
+
+                {/* Project 10 */}
+
+                <div className="project">
+                    <img
+                        src={dockerPlatform}
+                        className="zoom"
+                        alt="Container Platform"
+                        width="100%"
+                    />
+
+                    <h2>Container Platform Operations</h2>
+
+                    <p>
+                        Contributed to containerized application deployments and
+                        infrastructure management using Docker, supporting reliable
+                        delivery across development and production environments.
+                    </p>
+                </div>
+
             </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div>
-            <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
-            </div>
+
         </div>
-    </div>
     );
 }
 
