@@ -8,7 +8,7 @@ function Footer() {
     <footer>
       <div>
         <a href="https://github.com/helenasaadati" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-        <a href="https://www.linkedin.com/in/fatemeh-saadati-0b7a2a178/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        <a href="https://www.linkedin.com/in/helena-saadati-0b7a2a178/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
       <p>© 2026 Helena Saadati</p>
 

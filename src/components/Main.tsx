@@ -25,7 +25,7 @@ function Main() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/fatemeh-saadati-0b7a2a178/"
+              href="https://www.linkedin.com/in/helena-saadati-0b7a2a178/"
               target="_blank"
               rel="noreferrer"
             >
