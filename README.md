@@ -1,86 +1,131 @@
-# Developer Portfolio Template 🚀
+# Helena Saadati | DevOps & Platform Engineer
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+Welcome to my personal portfolio repository.
 
-## What is this?
+This repository contains the source code for my portfolio website, where I showcase my professional experience, technical skills, and selected DevOps, Platform Engineering, and Infrastructure projects.
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+## 🌐 Live Portfolio
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+**Website:** https://helenasaadati.github.io
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
+---
 
-![screenshot](./src/assets//images/screenshot.png)
+![Portfolio Preview](./src/assets/images/portfolio-preview.png)
 
-## Features
+---
 
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+## 👋 About Me
 
-## Quick Setup
+I'm a DevOps & Platform Engineer with hands-on experience supporting production infrastructure, CI/CD pipelines, monitoring platforms, containerized environments, Linux systems, and distributed data platforms.
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+I enjoy building reliable, scalable, and automated infrastructure while improving operational efficiency through automation and observability.
 
-    ```bash
-    node -v
-    ```
+I'm currently open to international DevOps and Platform Engineering opportunities with visa sponsorship.
 
-2. In the project directory, install dependencies:
+---
 
-    ```bash
-    npm install
-    ```
+## 🚀 Technologies
 
-3. Start the development server:
+### DevOps & Cloud
 
-    ```bash
-    npm start
-    ```
+- Docker
+- Kubernetes
+- GitLab CI/CD
+- GitHub Actions
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+### Monitoring & Observability
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+- Prometheus
+- Grafana
+- Zabbix
 
-The page will reload if you make edits, and you will see any lint errors in the console.
+### Infrastructure & Automation
 
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
+- Linux
+- Bash
+- Git
 
-## Deployment
+### Databases & Data Platforms
 
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+- PostgreSQL
+- Redis
+- Apache Airflow
+- Hadoop
 
-1. **Set Up GitHub Repository**
+### Frontend (Portfolio)
 
-    Create a new repository on GitHub for your portfolio app.
+- React
+- TypeScript
+- SCSS
+- Material UI
 
-2. **Configure `package.json`**
+---
 
-    Edit the following properties in your `package.json` file:
+## ✨ Portfolio Features
 
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+- Responsive design
+- Dark & Light mode
+- Project showcase
+- Professional experience timeline
+- Technical expertise section
+- Contact section
+- GitHub Pages deployment
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+---
 
-3. **Deploy to GitHub Pages**
+## 🛠️ Run Locally
 
-    Run the following command to deploy your app:
+Clone the repository:
 
-    ```bash
-    npm run deploy
-    ```
+```bash
+git clone https://github.com/helenasaadati/helenasaadati.github.io.git
+```
 
-4. **Access Your Deployed App**
+Install dependencies:
 
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+---
+
+## 📦 Build
+
+```bash
+npm run build
+```
+
+---
+
+## 🚀 Deploy
+
+```bash
+npm run deploy
+```
+
+---
+
+## 📫 Contact
+
+**Email**
+
+fsnm.saadati@gmail.com
+
+**LinkedIn**
+
+https://www.linkedin.com/in/fatemeh-saadati-0b7a2a178/
+
+**GitHub**
+
+https://github.com/helenasaadati
+
+---
+
+Thank you for visiting my portfolio repository.
+Feel free to explore the source code and visit the live website.
