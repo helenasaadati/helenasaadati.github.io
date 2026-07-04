@@ -168,10 +168,10 @@ function Project() {
                 <div className="project">
                     <img
                         src={postgresqlHA}
-                        className="zoom"
+                        className="zoom logo-project"
                         alt="PostgreSQL High Availability"
-                        width="100%"
-                    />
+                        
+                        />
 
                     <h2>PostgreSQL High Availability</h2>
 
@@ -187,9 +187,9 @@ function Project() {
                 <div className="project">
                     <img
                         src={redisSentinel}
-                        className="zoom"
+                        className="zoom logo-project"
                         alt="Redis Sentinel"
-                        width="100%"
+                        
                     />
 
                     <h2>Redis High Availability</h2>
@@ -206,9 +206,9 @@ function Project() {
                 <div className="project">
                     <img
                         src={dockerPlatform}
-                        className="zoom"
+                        className="zoom logo-project"
                         alt="Container Platform"
-                        width="100%"
+                        
                     />
 
                     <h2>Container Platform Operations</h2>
