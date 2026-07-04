@@ -6,18 +6,18 @@ import profile from "../assets/images/profile.jpg";
 
 function Main() {
   return (
-    <div className="container">
+    <div className="container" id="about">
       <div className="about-section">
 
         <div className="image-wrapper">
-          <img src={profile} alt="Fatemeh Saadati" />
+          <img src={profile} alt="Helena Saadati" />
         </div>
 
         <div className="content">
 
           <div className="social_icons">
             <a
-              href="https://github.com/F-Saadati"
+              href="https://github.com/helenasaadati"
               target="_blank"
               rel="noreferrer"
             >
@@ -35,7 +35,7 @@ function Main() {
 
           <p className="intro-text">Hi, I'm</p>
 
-          <h1>Fatemeh Saadati</h1>
+          <h1>Helena Saadati</h1>
 
           <h2>DevOps & Platform Engineer</h2>
 

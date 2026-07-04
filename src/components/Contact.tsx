@@ -23,11 +23,24 @@ function Contact() {
             engineering team.
           </p>
 
-          <div className="contact-email">
-            <strong>Email:</strong>{" "}
+          <div className="contact-info">
+          <div className="info-item">
+            <span className="info-title">📧 Email</span>
             <a href="mailto:fsnm.saadati@gmail.com">
               fsnm.saadati@gmail.com
             </a>
+          </div>
+
+          <div className="info-item">
+            <span className="info-title">📍 Location</span>
+            <span>Tehran, Iran</span>
+          </div>
+
+          <div className="info-item">
+            <span className="info-title">💼 Status</span>
+            <span>Open to Relocation</span>
+          </div>
+
           </div>
 
           <div className="contact-actions">
