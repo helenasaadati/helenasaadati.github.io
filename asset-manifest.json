@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e8a83eb.css",
+    "main.css": "/static/css/main.052355fa.css",
     "main.js": "/static/js/main.814027c0.js",
     "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
@@ -16,12 +16,12 @@
     "static/media/postgresql-ha.png": "/static/media/postgresql-ha.7cbf9c19b87d3acf7087.png",
     "static/media/profile.jpg": "/static/media/profile.a902064224bde8ad3817.jpg",
     "index.html": "/index.html",
-    "main.2e8a83eb.css.map": "/static/css/main.2e8a83eb.css.map",
+    "main.052355fa.css.map": "/static/css/main.052355fa.css.map",
     "main.814027c0.js.map": "/static/js/main.814027c0.js.map",
     "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e8a83eb.css",
+    "static/css/main.052355fa.css",
     "static/js/main.814027c0.js"
   ]
 }
