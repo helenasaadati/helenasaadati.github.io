@@ -119,7 +119,7 @@ fsnm.saadati@gmail.com
 
 **LinkedIn**
 
-https://www.linkedin.com/in/fatemeh-saadati-0b7a2a178/
+https://www.linkedin.com/in/helena-saadati-0b7a2a178/
 
 **GitHub**
 
