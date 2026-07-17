@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.606fbd49.css",
-    "main.js": "/static/js/main.18dd004c.js",
-    "static/js/453.b05d8aa5.chunk.js": "/static/js/453.b05d8aa5.chunk.js",
+    "main.css": "/static/css/main.a16a4707.css",
+    "main.js": "/static/js/main.771ed585.js",
+    "static/js/453.e7f01505.chunk.js": "/static/js/453.e7f01505.chunk.js",
     "static/media/bg-light.png": "/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/airflow-platform.png": "/static/media/airflow-platform.cc9d8288917ee6971e84.png",
@@ -16,12 +16,12 @@
     "static/media/postgresql-ha.png": "/static/media/postgresql-ha.7cbf9c19b87d3acf7087.png",
     "static/media/profile.jpg": "/static/media/profile.a902064224bde8ad3817.jpg",
     "index.html": "/index.html",
-    "main.606fbd49.css.map": "/static/css/main.606fbd49.css.map",
-    "main.18dd004c.js.map": "/static/js/main.18dd004c.js.map",
-    "453.b05d8aa5.chunk.js.map": "/static/js/453.b05d8aa5.chunk.js.map"
+    "main.a16a4707.css.map": "/static/css/main.a16a4707.css.map",
+    "main.771ed585.js.map": "/static/js/main.771ed585.js.map",
+    "453.e7f01505.chunk.js.map": "/static/js/453.e7f01505.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.606fbd49.css",
-    "static/js/main.18dd004c.js"
+    "static/css/main.a16a4707.css",
+    "static/js/main.771ed585.js"
   ]
 }
