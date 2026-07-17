@@ -10,11 +10,10 @@ function Notes() {
                 <h1>Technical Notes</h1>
 
                 <p>
-                Currently being developed. Future posts will cover DevOps practices, Linux
+  Currently being developed. Future posts will cover DevOps practices, Linux
   administration, automation, monitoring, CI/CD pipelines, and infrastructure
   troubleshooting.
-
-                </p>
+</p>
             </div>
 
             <div className="notes-grid">
