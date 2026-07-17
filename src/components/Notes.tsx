@@ -10,9 +10,10 @@ function Notes() {
                 <h1>Technical Notes</h1>
 
                 <p>
-                    A collection of practical notes, troubleshooting guides,
-                    commands, and deployment experiences gathered while working
-                    with production systems.
+                Currently being developed. Future posts will cover DevOps practices, Linux
+  administration, automation, monitoring, CI/CD pipelines, and infrastructure
+  troubleshooting.
+
                 </p>
             </div>
 
