@@ -1,53 +1,74 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../assets/styles/Notes.scss";
 
 function Notes() {
     return (
-        <section className="notes-container" id="notes">
+        <div className="notes-container">
 
-            <h1>Technical Notes</h1>
+            <div className="notes-header">
+                <h1>Technical Notes</h1>
 
-            <p className="notes-intro">
-                My personal knowledge base where I document useful commands,
-                troubleshooting experiences, deployment notes, and DevOps
-                best practices.
-            </p>
+                <p>
+                    A collection of practical notes, troubleshooting guides,
+                    commands, and deployment experiences gathered while working
+                    with production systems.
+                </p>
+            </div>
 
             <div className="notes-grid">
 
-                <div className="note-card">
-                    <h3>🐳 Docker</h3>
-                    <p>Containers, Compose, Networks, Volumes & Best Practices</p>
-                </div>
+                <Link to="/notes/docker" className="note-card">
+                    <h2>🐳 Docker</h2>
+                    <p>
+                        Docker commands, networking, volumes,
+                        images, compose and troubleshooting.
+                    </p>
+                </Link>
 
-                <div className="note-card">
-                    <h3>☸ Kubernetes</h3>
-                    <p>Pods, Deployments, Services, Helm & Troubleshooting</p>
-                </div>
+                <Link to="/notes/kubernetes" className="note-card">
+                    <h2>☸ Kubernetes</h2>
+                    <p>
+                        Pods, Deployments, Services,
+                        Ingress, Helm and debugging.
+                    </p>
+                </Link>
 
-                <div className="note-card">
-                    <h3>🖥 Zabbix</h3>
-                    <p>Agent2, Templates, Triggers, Proxy & Monitoring</p>
-                </div>
+                <Link to="/notes/linux" className="note-card">
+                    <h2>🐧 Linux</h2>
+                    <p>
+                        Useful commands, networking,
+                        systemd, permissions and shell tips.
+                    </p>
+                </Link>
 
-                <div className="note-card">
-                    <h3>📊 Grafana</h3>
-                    <p>Dashboards, Variables & Visualization</p>
-                </div>
+                <Link to="/notes/zabbix" className="note-card">
+                    <h2>📈 Zabbix</h2>
+                    <p>
+                        Templates, Agent2,
+                        triggers and monitoring notes.
+                    </p>
+                </Link>
 
-                <div className="note-card">
-                    <h3>🐘 PostgreSQL</h3>
-                    <p>Replication, Backup, Performance & HA</p>
-                </div>
+                <Link to="/notes/postgresql" className="note-card">
+                    <h2>🐘 PostgreSQL</h2>
+                    <p>
+                        Replication, backup,
+                        performance tuning and HA.
+                    </p>
+                </Link>
 
-                <div className="note-card">
-                    <h3>🔴 Redis</h3>
-                    <p>Sentinel, Replication & High Availability</p>
-                </div>
+                <Link to="/notes/gitlab" className="note-card">
+                    <h2>🚀 GitLab CI/CD</h2>
+                    <p>
+                        Pipelines, Runner,
+                        deployment automation and CI/CD.
+                    </p>
+                </Link>
 
             </div>
 
-        </section>
+        </div>
     );
 }
 

@@ -15,13 +15,22 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
+import { Link, useLocation } from "react-router-dom";
 
 const drawerWidth = 240;
-const navItems = [['About', 'about'],['Expertise', 'expertise'],['Experience', 'history'],['Projects', 'projects'], ['Technical Notes', 'notes'],['Contact', 'contact']];
+const navItems = [
+  ['About', 'about'],
+  ['Expertise', 'expertise'],
+  ['Experience', 'history'],
+  ['Projects', 'projects'],
+  ['Technical Notes', '/notes'],
+  ['Contact', 'contact'],
+];
+
 function Navigation({parentToChild, modeChange}: any) {
 
   const {mode} = parentToChild;
-
+  const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
 
@@ -46,13 +55,33 @@ function Navigation({parentToChild, modeChange}: any) {
   }, []);
 
   const scrollToSection = (section: string) => {
-    console.log(section)
-    const expertiseElement = document.getElementById(section);
-    if (expertiseElement) {
-      expertiseElement.scrollIntoView({ behavior: 'smooth' });
-      console.log('Scrolling to:', expertiseElement);  // Debugging: Ensure the element is found
-    } else {
-      console.error('Element with id "expertise" not found');  // Debugging: Log error if element is not found
+
+    // اگر روی صفحه Notes هستیم و کاربر یکی از بخش‌های صفحه اصلی را زد
+    if (location.pathname !== "/" && !section.startsWith("/")) {
+      window.location.href = "/#" + section;
+      return;
+    }
+  
+    // اگر Technical Notes باشد
+    if (section.startsWith("/")) {
+      window.location.href = section;
+      return;
+    }
+  
+    const element = document.getElementById(section);
+
+    if (element) {
+      const navbarHeight = 70; // ارتفاع تقریبی Navbar
+    
+      const y =
+        element.getBoundingClientRect().top +
+        window.pageYOffset -
+        navbarHeight;
+    
+      window.scrollTo({
+        top: y,
+        behavior: "smooth",
+      });
     }
   };
 

@@ -1,46 +1,71 @@
 .notes-container {
-    padding: 6% 10%;
+    padding: 140px 10% 80px;
+    min-height: 100vh;
 }
 
-.notes-container h1 {
+.notes-header {
+    margin-bottom: 60px;
+}
+
+.notes-header h1 {
+    font-size: 3rem;
     margin-bottom: 15px;
 }
 
-.notes-intro {
-    max-width: 850px;
+.notes-header p {
+    max-width: 800px;
     line-height: 1.8;
-    margin-bottom: 40px;
-    color: #b7b7b7;
+    font-size: 1.05rem;
+    color: #bdbdbd;
 }
 
 .notes-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
 }
 
 .note-card {
+    display: block;
     padding: 28px;
-    border-radius: 14px;
-    transition: .25s;
+    border-radius: 18px;
+    text-decoration: none;
+    transition: all .25s ease;
 
-    background: rgba(255,255,255,.04);
+    background: rgba(255,255,255,.05);
     border: 1px solid rgba(255,255,255,.08);
+
+    backdrop-filter: blur(10px);
 }
 
 .note-card:hover {
     transform: translateY(-6px);
+
     border-color: #8b5cf6;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.35);
 }
 
-.note-card h3 {
+.note-card h2 {
     margin-top: 0;
+    margin-bottom: 15px;
     color: #8b5cf6;
+    font-size: 1.35rem;
 }
 
 .note-card p {
-    color: #d1d5db;
-    line-height: 1.6;
+    font-family: inherit;
+    font-size: 1.00rem;
+    line-height: 1.7;
+    color: #d5d5d5;
+    font-weight: 200;
+}
+
+/* ---------- Light Mode ---------- */
+
+.light-mode .notes-header p {
+    color: #555;
 }
 
 .light-mode .note-card {
@@ -49,15 +74,23 @@
 }
 
 .light-mode .note-card p {
-    color: #555;
+    color: #444;
 }
 
-@media(max-width:900px){
+/* ---------- Mobile ---------- */
 
-.notes-grid{
+@media (max-width:768px) {
 
-grid-template-columns:1fr;
+    .notes-container {
+        padding: 120px 6% 60px;
+    }
 
-}
+    .notes-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .notes-grid {
+        grid-template-columns: 1fr;
+    }
 
 }
